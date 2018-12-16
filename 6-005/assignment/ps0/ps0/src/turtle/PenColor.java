@@ -3,6 +3,8 @@
  */
 package turtle;
 
+import java.util.Random;
+
 /**
  * Enumeration of turtle pen colors.
  * 
@@ -19,4 +21,12 @@ public enum PenColor {
     CYAN,
     BLUE,
     MAGENTA;
+	
+	private static final PenColor[] v = values();
+	private static final int size = v.length;
+	private static final Random r = new Random();
+	
+	public static PenColor getRandomColor() {
+		return v[r.nextInt(size)];
+	}
 }

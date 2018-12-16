@@ -4,6 +4,7 @@
 package turtle;
 
 import java.util.List;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class TurtleSoup {
@@ -15,7 +16,14 @@ public class TurtleSoup {
      * @param sideLength length of each side
      */
     public static void drawSquare(Turtle turtle, int sideLength) {
-        throw new RuntimeException("implement me!");
+        turtle.forward(sideLength);
+        turtle.turn(90);
+        turtle.forward(sideLength);
+        turtle.turn(90);
+        turtle.forward(sideLength);
+        turtle.turn(90);
+        turtle.forward(sideLength);
+        turtle.draw();
     }
 
     /**
@@ -28,7 +36,9 @@ public class TurtleSoup {
      * @return angle in degrees, where 0 <= angle < 360
      */
     public static double calculateRegularPolygonAngle(int sides) {
-        throw new RuntimeException("implement me!");
+    	double s = sides;
+    	double num = (s-2)*180/s;
+    	return num;
     }
 
     /**
@@ -42,7 +52,8 @@ public class TurtleSoup {
      * @return the integer number of sides
      */
     public static int calculatePolygonSidesFromAngle(double angle) {
-        throw new RuntimeException("implement me!");
+        double m = 360/(180.0 - angle);
+        return (int)Math.ceil(m);
     }
 
     /**
@@ -55,7 +66,11 @@ public class TurtleSoup {
      * @param sideLength length of each side
      */
     public static void drawRegularPolygon(Turtle turtle, int sides, int sideLength) {
-        throw new RuntimeException("implement me!");
+        double turn = 180 - calculateRegularPolygonAngle(sides);
+        for (int i =0;i<sides;i++) {
+        	turtle.forward(sideLength);
+            turtle.turn(turn);
+        }
     }
 
     /**
@@ -79,7 +94,16 @@ public class TurtleSoup {
      */
     public static double calculateHeadingToPoint(double currentHeading, int currentX, int currentY,
                                                  int targetX, int targetY) {
-        throw new RuntimeException("implement me!");
+    	double X = targetX - currentX;
+    	double Y = targetY - currentY;
+    	double angle = (Math.atan2(X, Y)+2*Math.PI)*360/(2*Math.PI) - currentHeading;
+    	if (angle >= 360) {
+    		return angle - 360;
+    	}    		
+    	else {
+    		return angle;
+    	}
+    	
     }
 
     /**
@@ -97,7 +121,22 @@ public class TurtleSoup {
      *         otherwise of size (# of points) - 1
      */
     public static List<Double> calculateHeadings(List<Integer> xCoords, List<Integer> yCoords) {
-        throw new RuntimeException("implement me!");
+        List<Double> angles = new ArrayList<Double>();
+        
+        double angle = 0.0;
+        for (int i=0;i<xCoords.size()-1;i++) {
+        	int x = xCoords.get(i);
+        	int y = yCoords.get(i);
+        	int xnext = xCoords.get(i+1);
+        	int ynext = yCoords.get(i+1);
+        	double a = calculateHeadingToPoint(angle, x, y, xnext, ynext);
+        	angles.add(a);
+        	angle = angle + a;
+        	if (angle >=360) {
+        		angle = angle - 360;
+        	}        	
+        }
+        return angles;
     }
 
     /**
@@ -109,7 +148,10 @@ public class TurtleSoup {
      * @param turtle the turtle context
      */
     public static void drawPersonalArt(Turtle turtle) {
-        throw new RuntimeException("implement me!");
+    	drawRegularPolygon(turtle, 3, 10);
+    	drawRegularPolygon(turtle, 4, 15);
+    	drawRegularPolygon(turtle, 5, 20);
+    	turtle.draw();
     }
 
     /**
@@ -120,12 +162,11 @@ public class TurtleSoup {
      * @param args unused
      */
     public static void main(String args[]) {
-        DrawableTurtle turtle = new DrawableTurtle();
-
-        drawSquare(turtle, 40);
-
+        DrawableTurtle turtle = new DrawableTurtle(20.0, 20.0, PenColor.getRandomColor());
+        drawPersonalArt(turtle);
         // draw the window
-        turtle.draw();
+        
+        
     }
 
 }

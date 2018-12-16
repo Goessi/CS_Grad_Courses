@@ -31,10 +31,11 @@ public class DrawableTurtle implements Turtle {
     /**
      * Create a new turtle for drawing on screen.
      */
-    public DrawableTurtle() {
-        this.currentPosition = new Point(0, 0);
+    public DrawableTurtle(double x,double y, PenColor c) {
+        this.currentPosition = new Point(x, y);
         this.currentHeading = 0.0;
-        this.currentColor = PenColor.BLACK;
+        this.currentColor = c;
+        
         this.lines = new ArrayList<>();
         this.actionList = new ArrayList<>();
     }
