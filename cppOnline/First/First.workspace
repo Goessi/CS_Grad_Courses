@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="First" Database="" Version="10.0.0" SWTLW="Yes">
+  <WorkspaceParserMacros/>
+  <WorkspaceParserPaths/>
+  <Project Name="TestOne" Path="TestOne/TestOne.project" Active="No"/>
+  <Project Name="TestTwo" Path="TestTwo/TestTwo.project" Active="Yes"/>
+  <Project Name="Start" Path="Start/Start.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="TestOne" ConfigName="Debug"/>
+      <Project Name="TestTwo" ConfigName="Debug"/>
+      <Project Name="Start" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Environment/>
+      <Project Name="TestOne" ConfigName="Release"/>
+      <Project Name="TestTwo" ConfigName="Release"/>
+      <Project Name="Start" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
