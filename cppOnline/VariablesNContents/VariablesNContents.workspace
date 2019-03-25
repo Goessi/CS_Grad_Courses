@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="VariablesNContents" Database="" Version="10.0.0">
+  <Project Name="InitializeVar" Path="InitializeVar/InitializeVar.project" Active="No"/>
+  <Project Name="globalVars" Path="globalVars/globalVars.project" Active="No"/>
+  <Project Name="primitiveDatatype" Path="primitiveDatatype/primitiveDatatype.project" Active="No"/>
+  <Project Name="sizeOF" Path="sizeOF/sizeOF.project" Active="No"/>
+  <Project Name="Constant" Path="Constant/Constant.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="InitializeVar" ConfigName="Debug"/>
+      <Project Name="globalVars" ConfigName="Debug"/>
+      <Project Name="primitiveDatatype" ConfigName="Debug"/>
+      <Project Name="sizeOF" ConfigName="Debug"/>
+      <Project Name="Constant" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="InitializeVar" ConfigName="Release"/>
+      <Project Name="globalVars" ConfigName="Release"/>
+      <Project Name="primitiveDatatype" ConfigName="Release"/>
+      <Project Name="sizeOF" ConfigName="Release"/>
+      <Project Name="Constant" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

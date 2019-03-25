@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ TestOne - Debug ]----------"
-	@cd "TestOne" && "$(MAKE)" -f  "TestOne.mk"
+	@echo "----------Building project:[ Start - Debug ]----------"
+	@cd "Start" && "$(MAKE)" -f  "Start.mk"
 clean:
-	@echo "----------Cleaning project:[ TestOne - Debug ]----------"
-	@cd "TestOne" && "$(MAKE)" -f  "TestOne.mk" clean
+	@echo "----------Cleaning project:[ Start - Debug ]----------"
+	@cd "Start" && "$(MAKE)" -f  "Start.mk" clean

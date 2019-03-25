@@ -3,8 +3,8 @@
   <WorkspaceParserMacros/>
   <WorkspaceParserPaths/>
   <Project Name="TestOne" Path="TestOne/TestOne.project" Active="No"/>
-  <Project Name="TestTwo" Path="TestTwo/TestTwo.project" Active="Yes"/>
-  <Project Name="Start" Path="Start/Start.project" Active="No"/>
+  <Project Name="TestTwo" Path="TestTwo/TestTwo.project" Active="No"/>
+  <Project Name="Start" Path="Start/Start.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
