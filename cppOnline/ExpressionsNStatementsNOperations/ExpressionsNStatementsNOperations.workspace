@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="ExpressionsNStatementsNOperations" Database="" Version="10.0.0">
+  <Project Name="ExpressionsNStatements" Path="ExpressionsNStatements/ExpressionsNStatements.project" Active="No"/>
+  <Project Name="EurosToUSD" Path="EurosToUSD/EurosToUSD.project" Active="No"/>
+  <Project Name="IncrementNDecrement" Path="IncrementNDecrement/IncrementNDecrement.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ExpressionsNStatements" ConfigName="Debug"/>
+      <Project Name="EurosToUSD" ConfigName="Debug"/>
+      <Project Name="IncrementNDecrement" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ExpressionsNStatements" ConfigName="Release"/>
+      <Project Name="EurosToUSD" ConfigName="Release"/>
+      <Project Name="IncrementNDecrement" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

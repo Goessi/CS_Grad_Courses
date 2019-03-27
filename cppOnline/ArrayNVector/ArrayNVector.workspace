@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="ArrayNVector" Database="" Version="10.0.0">
+  <Project Name="Array" Path="Array/Array.project" Active="No"/>
+  <Project Name="NArray" Path="NArray/NArray.project" Active="No"/>
+  <Project Name="Vector" Path="Vector/Vector.project" Active="No"/>
+  <Project Name="VectorExercise" Path="VectorExercise/VectorExercise.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Array" ConfigName="Debug"/>
+      <Project Name="NArray" ConfigName="Debug"/>
+      <Project Name="Vector" ConfigName="Debug"/>
+      <Project Name="VectorExercise" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Array" ConfigName="Release"/>
+      <Project Name="NArray" ConfigName="Release"/>
+      <Project Name="Vector" ConfigName="Release"/>
+      <Project Name="VectorExercise" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
