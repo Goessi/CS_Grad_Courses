@@ -28,10 +28,14 @@ int main()
 //    cout << "counter: " << counter << endl;
 //    cout << "Result: " << result << endl;
     
+//    cout << "counter: " << counter << endl;
+//    result = ++counter + 10;
+//    cout << "counter: " << counter << endl;
+//    cout << "result: " << result << endl;
+    
     cout << "counter: " << counter << endl;
-    result = ++counter + 10;
+    result = counter++ + 10;
     cout << "counter: " << counter << endl;
     cout << "result: " << result << endl;
-    
     return 0;
 }

@@ -2,19 +2,31 @@
 <CodeLite_Workspace Name="ExpressionsNStatementsNOperations" Database="" Version="10.0.0">
   <Project Name="ExpressionsNStatements" Path="ExpressionsNStatements/ExpressionsNStatements.project" Active="No"/>
   <Project Name="EurosToUSD" Path="EurosToUSD/EurosToUSD.project" Active="No"/>
-  <Project Name="IncrementNDecrement" Path="IncrementNDecrement/IncrementNDecrement.project" Active="Yes"/>
+  <Project Name="IncrementNDecrement" Path="IncrementNDecrement/IncrementNDecrement.project" Active="No"/>
+  <Project Name="MixedTypyExpressions" Path="MixedTypyExpressions/MixedTypyExpressions.project" Active="No"/>
+  <Project Name="Equity" Path="Equity/Equity.project" Active="No"/>
+  <Project Name="LogicOperators" Path="LogicOperators/LogicOperators.project" Active="No"/>
+  <Project Name="centChange" Path="centChange/centChange.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="ExpressionsNStatements" ConfigName="Debug"/>
       <Project Name="EurosToUSD" ConfigName="Debug"/>
       <Project Name="IncrementNDecrement" ConfigName="Debug"/>
+      <Project Name="MixedTypyExpressions" ConfigName="Debug"/>
+      <Project Name="Equity" ConfigName="Debug"/>
+      <Project Name="LogicOperators" ConfigName="Debug"/>
+      <Project Name="centChange" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="ExpressionsNStatements" ConfigName="Release"/>
       <Project Name="EurosToUSD" ConfigName="Release"/>
       <Project Name="IncrementNDecrement" ConfigName="Release"/>
+      <Project Name="MixedTypyExpressions" ConfigName="Release"/>
+      <Project Name="Equity" ConfigName="Release"/>
+      <Project Name="LogicOperators" ConfigName="Release"/>
+      <Project Name="centChange" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
