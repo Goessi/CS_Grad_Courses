@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ IfStatement - Debug ]----------"
-	@cd "IfStatement" && "$(MAKE)" -f  "IfStatement.mk"
+	@echo "----------Building project:[ ListTest - Debug ]----------"
+	@cd "ListTest" && "$(MAKE)" -f  "ListTest.mk"
 clean:
-	@echo "----------Cleaning project:[ IfStatement - Debug ]----------"
-	@cd "IfStatement" && "$(MAKE)" -f  "IfStatement.mk" clean
+	@echo "----------Cleaning project:[ ListTest - Debug ]----------"
+	@cd "ListTest" && "$(MAKE)" -f  "ListTest.mk" clean

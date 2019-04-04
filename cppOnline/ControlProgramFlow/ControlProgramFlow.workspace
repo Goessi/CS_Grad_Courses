@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="ControlProgramFlow" Database="" Version="10.0.0">
-  <Project Name="IfStatement" Path="IfStatement/IfStatement.project" Active="Yes"/>
+  <Project Name="IfStatement" Path="IfStatement/IfStatement.project" Active="No"/>
+  <Project Name="IfElseStatement" Path="IfElseStatement/IfElseStatement.project" Active="No"/>
+  <Project Name="NestIfStatement" Path="NestIfStatement/NestIfStatement.project" Active="No"/>
+  <Project Name="Shipping" Path="Shipping/Shipping.project" Active="No"/>
+  <Project Name="Switch" Path="Switch/Switch.project" Active="No"/>
+  <Project Name="SwitchEnum" Path="SwitchEnum/SwitchEnum.project" Active="No"/>
+  <Project Name="conditiamlOperator" Path="conditiamlOperator/conditiamlOperator.project" Active="No"/>
+  <Project Name="ConditionalOperator" Path="ConditionalOperator/ConditionalOperator.project" Active="No"/>
+  <Project Name="forLoop" Path="forLoop/forLoop.project" Active="No"/>
+  <Project Name="RangeBasedForLoop" Path="RangeBasedForLoop/RangeBasedForLoop.project" Active="No"/>
+  <Project Name="WhileLoop" Path="WhileLoop/WhileLoop.project" Active="No"/>
+  <Project Name="doWhileLoop" Path="doWhileLoop/doWhileLoop.project" Active="No"/>
+  <Project Name="continueAndBreak" Path="continueAndBreak/continueAndBreak.project" Active="No"/>
+  <Project Name="NestLoop" Path="NestLoop/NestLoop.project" Active="No"/>
+  <Project Name="Histogram" Path="Histogram/Histogram.project" Active="No"/>
+  <Project Name="ListTest" Path="ListTest/ListTest.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="IfStatement" ConfigName="Debug"/>
+      <Project Name="IfElseStatement" ConfigName="Debug"/>
+      <Project Name="NestIfStatement" ConfigName="Debug"/>
+      <Project Name="Shipping" ConfigName="Debug"/>
+      <Project Name="Switch" ConfigName="Debug"/>
+      <Project Name="SwitchEnum" ConfigName="Debug"/>
+      <Project Name="conditiamlOperator" ConfigName="Debug"/>
+      <Project Name="ConditionalOperator" ConfigName="Debug"/>
+      <Project Name="forLoop" ConfigName="Debug"/>
+      <Project Name="RangeBasedForLoop" ConfigName="Debug"/>
+      <Project Name="WhileLoop" ConfigName="Debug"/>
+      <Project Name="doWhileLoop" ConfigName="Debug"/>
+      <Project Name="continueAndBreak" ConfigName="Debug"/>
+      <Project Name="NestLoop" ConfigName="Debug"/>
+      <Project Name="Histogram" ConfigName="Debug"/>
+      <Project Name="ListTest" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="IfStatement" ConfigName="Release"/>
+      <Project Name="IfElseStatement" ConfigName="Release"/>
+      <Project Name="NestIfStatement" ConfigName="Release"/>
+      <Project Name="Shipping" ConfigName="Release"/>
+      <Project Name="Switch" ConfigName="Release"/>
+      <Project Name="SwitchEnum" ConfigName="Release"/>
+      <Project Name="conditiamlOperator" ConfigName="Release"/>
+      <Project Name="ConditionalOperator" ConfigName="Release"/>
+      <Project Name="forLoop" ConfigName="Release"/>
+      <Project Name="RangeBasedForLoop" ConfigName="Release"/>
+      <Project Name="WhileLoop" ConfigName="Release"/>
+      <Project Name="doWhileLoop" ConfigName="Release"/>
+      <Project Name="continueAndBreak" ConfigName="Release"/>
+      <Project Name="NestLoop" ConfigName="Release"/>
+      <Project Name="Histogram" ConfigName="Release"/>
+      <Project Name="ListTest" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
