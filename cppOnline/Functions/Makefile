@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Functions - Debug ]----------"
-	@cd "FunctionPrototypes" && "$(MAKE)" -f  "Functions.mk"
+	@echo "----------Building project:[ ArrayParameters - Debug ]----------"
+	@cd "ArrayParameters" && "$(MAKE)" -f  "ArrayParameters.mk"
 clean:
-	@echo "----------Cleaning project:[ Functions - Debug ]----------"
-	@cd "FunctionPrototypes" && "$(MAKE)" -f  "Functions.mk" clean
+	@echo "----------Cleaning project:[ ArrayParameters - Debug ]----------"
+	@cd "ArrayParameters" && "$(MAKE)" -f  "ArrayParameters.mk" clean

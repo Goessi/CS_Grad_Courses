@@ -3,7 +3,10 @@
   <Project Name="cmath" Path="cmath/cmath.project" Active="No"/>
   <Project Name="Random" Path="Random/Random.project" Active="No"/>
   <Project Name="FunctionDefinitions" Path="FunctionDefinitions/FunctionDefinitions.project" Active="No"/>
-  <Project Name="Functions" Path="FunctionPrototypes/FunctionPrototypes.project" Active="Yes"/>
+  <Project Name="Functions" Path="FunctionPrototypes/FunctionPrototypes.project" Active="No"/>
+  <Project Name="DefaulArguementValues" Path="DefaulArguementValues/DefaulArguementValues.project" Active="No"/>
+  <Project Name="FunctionOverload" Path="FunctionOverload/FunctionOverload.project" Active="No"/>
+  <Project Name="ArrayParameters" Path="ArrayParameters/ArrayParameters.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +14,9 @@
       <Project Name="Random" ConfigName="Debug"/>
       <Project Name="FunctionDefinitions" ConfigName="Debug"/>
       <Project Name="Functions" ConfigName="Debug"/>
+      <Project Name="DefaulArguementValues" ConfigName="Debug"/>
+      <Project Name="FunctionOverload" ConfigName="Debug"/>
+      <Project Name="ArrayParameters" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +24,9 @@
       <Project Name="Random" ConfigName="Release"/>
       <Project Name="FunctionDefinitions" ConfigName="Release"/>
       <Project Name="Functions" ConfigName="Release"/>
+      <Project Name="DefaulArguementValues" ConfigName="Release"/>
+      <Project Name="FunctionOverload" ConfigName="Release"/>
+      <Project Name="ArrayParameters" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

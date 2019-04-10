@@ -4,9 +4,9 @@
   <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\Functions\Functions.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\Functions\FunctionPrototypes\main.cpp" Name="FileName"/>
-      <int Value="35" Name="FirstVisibleLine"/>
-      <int Value="51" Name="CurrentLine"/>
+      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\Functions\ArrayParameters\main.cpp" Name="FileName"/>
+      <int Value="22" Name="FirstVisibleLine"/>
+      <int Value="42" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
