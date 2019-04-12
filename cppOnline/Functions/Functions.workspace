@@ -6,7 +6,12 @@
   <Project Name="Functions" Path="FunctionPrototypes/FunctionPrototypes.project" Active="No"/>
   <Project Name="DefaulArguementValues" Path="DefaulArguementValues/DefaulArguementValues.project" Active="No"/>
   <Project Name="FunctionOverload" Path="FunctionOverload/FunctionOverload.project" Active="No"/>
-  <Project Name="ArrayParameters" Path="ArrayParameters/ArrayParameters.project" Active="Yes"/>
+  <Project Name="ArrayParameters" Path="ArrayParameters/ArrayParameters.project" Active="No"/>
+  <Project Name="PassByReference" Path="PassByReference/PassByReference.project" Active="No"/>
+  <Project Name="Scope" Path="Scope/Scope.project" Active="No"/>
+  <Project Name="FunctionCall" Path="FunctionCall/FunctionCall.project" Active="No"/>
+  <Project Name="RecursiveFunctions" Path="RecursiveFunctions/RecursiveFunctions.project" Active="No"/>
+  <Project Name="RewriteTestList" Path="RewriteTestList/RewriteTestList.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +22,11 @@
       <Project Name="DefaulArguementValues" ConfigName="Debug"/>
       <Project Name="FunctionOverload" ConfigName="Debug"/>
       <Project Name="ArrayParameters" ConfigName="Debug"/>
+      <Project Name="PassByReference" ConfigName="Debug"/>
+      <Project Name="Scope" ConfigName="Debug"/>
+      <Project Name="FunctionCall" ConfigName="Debug"/>
+      <Project Name="RecursiveFunctions" ConfigName="Debug"/>
+      <Project Name="RewriteTestList" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +37,11 @@
       <Project Name="DefaulArguementValues" ConfigName="Release"/>
       <Project Name="FunctionOverload" ConfigName="Release"/>
       <Project Name="ArrayParameters" ConfigName="Release"/>
+      <Project Name="PassByReference" ConfigName="Release"/>
+      <Project Name="Scope" ConfigName="Release"/>
+      <Project Name="FunctionCall" ConfigName="Release"/>
+      <Project Name="RecursiveFunctions" ConfigName="Release"/>
+      <Project Name="RewriteTestList" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
