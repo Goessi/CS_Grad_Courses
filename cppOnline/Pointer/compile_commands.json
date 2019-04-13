@@ -1,0 +1,9 @@
+[{
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\pointerDereferencing\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\pointerDereferencing",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\pointerDereferencing\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\pointerDereferencing\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\PointersDeclaration\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\PointersDeclaration",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\PointersDeclaration\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\Pointer\\PointersDeclaration\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }]
