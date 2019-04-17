@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Pointer" Database="" Version="10.0.0">
   <Project Name="PointersDeclaration" Path="PointersDeclaration/PointersDeclaration.project" Active="No"/>
-  <Project Name="pointerDereferencing" Path="pointerDereferencing/pointerDereferencing.project" Active="Yes"/>
+  <Project Name="pointerDereferencing" Path="pointerDereferencing/pointerDereferencing.project" Active="No"/>
+  <Project Name="DynamicMemoryAllocation" Path="DynamicMemoryAllocation/DynamicMemoryAllocation.project" Active="No"/>
+  <Project Name="RelationshipArrayPointers" Path="RelationshipArrayPointers/RelationshipArrayPointers.project" Active="No"/>
+  <Project Name="PointerArithmetic" Path="PointerArithmetic/PointerArithmetic.project" Active="No"/>
+  <Project Name="constantPointer" Path="constantPointer/constantPointer.project" Active="No"/>
+  <Project Name="PointersInFunctions" Path="PointersInFunctions/PointersInFunctions.project" Active="No"/>
+  <Project Name="ReturnPointerFromFunction" Path="ReturnPointerFromFunction/ReturnPointerFromFunction.project" Active="No"/>
+  <Project Name="Reference" Path="Reference/Reference.project" Active="No"/>
+  <Project Name="PointerArrayMul" Path="PointerArrayMul/PointerArrayMul.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="PointersDeclaration" ConfigName="Debug"/>
       <Project Name="pointerDereferencing" ConfigName="Debug"/>
+      <Project Name="DynamicMemoryAllocation" ConfigName="Debug"/>
+      <Project Name="RelationshipArrayPointers" ConfigName="Debug"/>
+      <Project Name="PointerArithmetic" ConfigName="Debug"/>
+      <Project Name="constantPointer" ConfigName="Debug"/>
+      <Project Name="PointersInFunctions" ConfigName="Debug"/>
+      <Project Name="ReturnPointerFromFunction" ConfigName="Debug"/>
+      <Project Name="Reference" ConfigName="Debug"/>
+      <Project Name="PointerArrayMul" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="PointersDeclaration" ConfigName="Release"/>
       <Project Name="pointerDereferencing" ConfigName="Release"/>
+      <Project Name="DynamicMemoryAllocation" ConfigName="Release"/>
+      <Project Name="RelationshipArrayPointers" ConfigName="Release"/>
+      <Project Name="PointerArithmetic" ConfigName="Release"/>
+      <Project Name="constantPointer" ConfigName="Release"/>
+      <Project Name="PointersInFunctions" ConfigName="Release"/>
+      <Project Name="ReturnPointerFromFunction" ConfigName="Release"/>
+      <Project Name="Reference" ConfigName="Release"/>
+      <Project Name="PointerArrayMul" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

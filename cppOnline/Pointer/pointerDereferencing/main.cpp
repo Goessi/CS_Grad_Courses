@@ -40,7 +40,7 @@ int main() {
     cout << endl;
     
 //    int a [] = {1,2,3};
-//    int *int_ptr = {&a};
+//    int *int_ptr = {a};
 //    cout << *int_ptr << endl;
     return 0;
 }

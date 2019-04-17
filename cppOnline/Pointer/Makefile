@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ pointerDereferencing - Debug ]----------"
-	@cd "pointerDereferencing" && "$(MAKE)" -f  "pointerDereferencing.mk"
+	@echo "----------Building project:[ PointerArrayMul - Debug ]----------"
+	@cd "PointerArrayMul" && "$(MAKE)" -f  "PointerArrayMul.mk"
 clean:
-	@echo "----------Cleaning project:[ pointerDereferencing - Debug ]----------"
-	@cd "pointerDereferencing" && "$(MAKE)" -f  "pointerDereferencing.mk" clean
+	@echo "----------Cleaning project:[ PointerArrayMul - Debug ]----------"
+	@cd "PointerArrayMul" && "$(MAKE)" -f  "PointerArrayMul.mk" clean
