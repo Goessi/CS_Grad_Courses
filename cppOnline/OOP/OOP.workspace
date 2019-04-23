@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="OOP" Database="" Version="10.0.0">
+  <Project Name="firstTouch" Path="firstTouch/firstTouch.project" Active="No"/>
+  <Project Name="accessMembers" Path="accessMembers/accessMembers.project" Active="No"/>
+  <Project Name="PubAndPrivate" Path="PubAndPrivate/PubAndPrivate.project" Active="No"/>
+  <Project Name="MemberMethods" Path="MemberMethods/MemberMethods.project" Active="No"/>
+  <Project Name="ConstructorADestructor" Path="ConstructorADestructor/ConstructorADestructor.project" Active="No"/>
+  <Project Name="defaultConstructor" Path="defaultConstructor/defaultConstructor.project" Active="No"/>
+  <Project Name="ConstructorInitList" Path="ConstructorInitList/ConstructorInitList.project" Active="No"/>
+  <Project Name="DelegatingConstructors" Path="DelegatingConstructors/DelegatingConstructors.project" Active="No"/>
+  <Project Name="DefaultConstructorParamters" Path="DefaultConstructorParamters/DefaultConstructorParamters.project" Active="No"/>
+  <Project Name="copyConstructor" Path="copyConstructor/copyConstructor.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="firstTouch" ConfigName="Debug"/>
+      <Project Name="accessMembers" ConfigName="Debug"/>
+      <Project Name="PubAndPrivate" ConfigName="Debug"/>
+      <Project Name="MemberMethods" ConfigName="Debug"/>
+      <Project Name="ConstructorADestructor" ConfigName="Debug"/>
+      <Project Name="defaultConstructor" ConfigName="Debug"/>
+      <Project Name="ConstructorInitList" ConfigName="Debug"/>
+      <Project Name="DelegatingConstructors" ConfigName="Debug"/>
+      <Project Name="DefaultConstructorParamters" ConfigName="Debug"/>
+      <Project Name="copyConstructor" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="firstTouch" ConfigName="Release"/>
+      <Project Name="accessMembers" ConfigName="Release"/>
+      <Project Name="PubAndPrivate" ConfigName="Release"/>
+      <Project Name="MemberMethods" ConfigName="Release"/>
+      <Project Name="ConstructorADestructor" ConfigName="Release"/>
+      <Project Name="defaultConstructor" ConfigName="Release"/>
+      <Project Name="ConstructorInitList" ConfigName="Release"/>
+      <Project Name="DelegatingConstructors" ConfigName="Release"/>
+      <Project Name="DefaultConstructorParamters" ConfigName="Release"/>
+      <Project Name="copyConstructor" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

@@ -1,0 +1,45 @@
+[{
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DelegatingConstructors\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DelegatingConstructors",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DelegatingConstructors\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DelegatingConstructors\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\accessMembers\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\accessMembers",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\accessMembers\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\accessMembers\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\copyConstructor\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\copyConstructor",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\copyConstructor\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\copyConstructor\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorInitList\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorInitList",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorInitList\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorInitList\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\PubAndPrivate\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\PubAndPrivate",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\PubAndPrivate\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\PubAndPrivate\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\firstTouch\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\firstTouch",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\firstTouch\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\firstTouch\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DefaultConstructorParamters\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DefaultConstructorParamters",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DefaultConstructorParamters\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\DefaultConstructorParamters\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods\\Account.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods\\Account.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\MemberMethods\\Account.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorADestructor\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorADestructor",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorADestructor\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\ConstructorADestructor\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\defaultConstructor\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\defaultConstructor",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\defaultConstructor\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\defaultConstructor\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }]
