@@ -1,14 +1,16 @@
+#include <string>
+#include <iostream>
 class Player {
 private:
     std::string name;
     int health;
     int xp;
 public:
-    Player(string n="None", int h=0, int x=0);
+    Player(std::string n="None", int h=0, int x=0);
     ~Player();
 };
 
-Player::Player(string n, int h, int x)
+Player::Player(std::string n, int h, int x)
     : name{n}, health {h}, xp {x} {
     }
     
@@ -23,7 +25,7 @@ Player::Player(string n, int h, int x)
 //    }
 
 Player::~Player() {
-    cout <<"Romving..." << endl;
+    std::cout <<"Romving..." << std::endl;
 }
     
 int main() {
