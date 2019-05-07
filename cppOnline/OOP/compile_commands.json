@@ -1,4 +1,16 @@
 [{
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\Movies.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\Movies.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\Movies.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\Movie.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\Movie.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\Movie\\Movie.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
   "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\constClass\\main.cpp",
   "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\constClass",
   "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\constClass\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OOP\\constClass\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"

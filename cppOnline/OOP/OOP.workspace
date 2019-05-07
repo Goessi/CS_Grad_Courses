@@ -14,7 +14,8 @@
   <Project Name="DeepCopying" Path="DeepCopying/DeepCopying.project" Active="No"/>
   <Project Name="moveConstructor" Path="moveConstructor/moveConstructor.project" Active="No"/>
   <Project Name="constClass" Path="constClass/constClass.project" Active="No"/>
-  <Project Name="staticMember" Path="staticMember/staticMember.project" Active="Yes"/>
+  <Project Name="staticMember" Path="staticMember/staticMember.project" Active="No"/>
+  <Project Name="Movie" Path="Movie/Movie.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -33,6 +34,7 @@
       <Project Name="moveConstructor" ConfigName="Debug"/>
       <Project Name="constClass" ConfigName="Debug"/>
       <Project Name="staticMember" ConfigName="Debug"/>
+      <Project Name="Movie" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -51,6 +53,7 @@
       <Project Name="moveConstructor" ConfigName="Release"/>
       <Project Name="constClass" ConfigName="Release"/>
       <Project Name="staticMember" ConfigName="Release"/>
+      <Project Name="Movie" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
