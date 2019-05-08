@@ -27,14 +27,17 @@ bool Movies::add_movie(string name, string rating, int watched) {
 }
 
 bool Movies::increment_watched(string name) {
-    for (auto &mo : Mo) {
+    // remember to use & reference
+    // efficiency
+    // if you don't want to change it, use const auto &mo
+    for (auto &mo : Mo) { 
         if (mo.increment_watched(name))
             return true;
     }
     return false;
 }
 
-void Movies::display() {
+void Movies::display() const {
     for (auto mo : Mo) {
         mo.display();
     }

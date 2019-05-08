@@ -15,7 +15,8 @@
   <Project Name="moveConstructor" Path="moveConstructor/moveConstructor.project" Active="No"/>
   <Project Name="constClass" Path="constClass/constClass.project" Active="No"/>
   <Project Name="staticMember" Path="staticMember/staticMember.project" Active="No"/>
-  <Project Name="Movie" Path="Movie/Movie.project" Active="Yes"/>
+  <Project Name="Movie" Path="Movie/Movie.project" Active="No"/>
+  <Project Name="MovieV2WithPointer" Path="MovieV2WithPointer/MovieV2WithPointer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -35,6 +36,7 @@
       <Project Name="constClass" ConfigName="Debug"/>
       <Project Name="staticMember" ConfigName="Debug"/>
       <Project Name="Movie" ConfigName="Debug"/>
+      <Project Name="MovieV2WithPointer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -54,6 +56,7 @@
       <Project Name="constClass" ConfigName="Release"/>
       <Project Name="staticMember" ConfigName="Release"/>
       <Project Name="Movie" ConfigName="Release"/>
+      <Project Name="MovieV2WithPointer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

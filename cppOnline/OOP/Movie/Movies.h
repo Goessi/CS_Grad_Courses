@@ -13,7 +13,7 @@ public:
     
     bool add_movie(string name, string rating, int watched);
     bool increment_watched(string name);
-    void display();
+    void display() const;
 };
 
 #endif
