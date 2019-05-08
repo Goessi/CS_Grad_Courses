@@ -7,7 +7,7 @@ using namespace std;
 
 class Movies {
 private:
-    vector<Movie> *Movies;
+    vector<Movie> *Mo;
 public:
     void display() const;
     bool increment_num(string name);
