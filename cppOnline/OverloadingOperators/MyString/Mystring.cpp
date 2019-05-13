@@ -27,6 +27,12 @@ Mystring::Mystring(const Mystring &source)
         std::strcpy(str, source.str);    
 }
 
+Mystring::Mystring(Mystring &&source)
+    :str(source.str) {
+        source.str = nullptr;
+        std::cout << "Move constructor used" << std::endl;
+    }
+
 Mystring::~Mystring() {
     delete [] str;
 }

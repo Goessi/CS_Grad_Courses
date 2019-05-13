@@ -35,5 +35,15 @@ int main() {
     for(const Mystring &s: stooges_vec)
         s.display();
         
+    // move constructor
+    Mystring c{"Hello"};
+    a = Mystring{"Hola"};
+    a = "Bonjour";
+    
+    Mystring stooges;
+    empty = stooge;  //copy assignment, stooge is a l-value
+    empty = "Funny"; //move assignment, "Funny" is an r-value
+    
+    
     return 0;
 }
