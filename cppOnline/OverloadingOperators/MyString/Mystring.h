@@ -17,6 +17,10 @@ public:
     //overload
     Mystring &operator= (const Mystring &rhs); // copy assignment
     Mystring &operator= (Mystring &&rhs); // move assignment
+    
+    Mystring operator-() const; // operator- make lowercase
+    bool operator==(const Mystring &rhs) const;
+    Mystring operator+(const Mystring &rhs) const;
 };
 
 #endif
