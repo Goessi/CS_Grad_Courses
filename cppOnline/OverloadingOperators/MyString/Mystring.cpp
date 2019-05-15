@@ -64,6 +64,7 @@ Mystring &Mystring::operator=(const Mystring &rhs) {
 }
 
 Mystring &Mystring::operator=(Mystring &&rhs) {
+    std::cout << "Move assignment" << std::endl;
     if (this == &rhs)  // self assignment
         return *this;     // return current object
         
@@ -80,9 +81,9 @@ Mystring Mystring::operator -() const {
     std::strcpy(buff, str);
     for (size_t i=0; i < std::strlen(buff); i++)
         buff[i] = std::tolower(buff[i]);
-        Mystring temp {buff};
-        delete [] buff;
-        return temp;
+    Mystring temp {buff};
+    delete [] buff;
+    return temp;
 }
 
 bool Mystring::operator==(const Mystring &rhs) const {

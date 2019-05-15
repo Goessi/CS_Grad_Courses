@@ -4,23 +4,23 @@
   <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\OverloadingOperators\OverloadingOperators.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\OverloadingOperators\MyString\Mystring.h" Name="FileName"/>
-      <int Value="11" Name="FirstVisibleLine"/>
-      <int Value="22" Name="CurrentLine"/>
+      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\OverloadingOperators\MystringInExsertion\main.cpp" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="20" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\OverloadingOperators\MyString\Mystring.cpp" Name="FileName"/>
-      <int Value="80" Name="FirstVisibleLine"/>
-      <int Value="96" Name="CurrentLine"/>
+      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\OverloadingOperators\MystringInExsertion\Mystring.h" Name="FileName"/>
+      <int Value="1" Name="FirstVisibleLine"/>
+      <int Value="5" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\OverloadingOperators\MyString\main.cpp" Name="FileName"/>
-      <int Value="55" Name="FirstVisibleLine"/>
-      <int Value="68" Name="CurrentLine"/>
+      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\cppOnline\OverloadingOperators\MystringInExsertion\Mystring.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

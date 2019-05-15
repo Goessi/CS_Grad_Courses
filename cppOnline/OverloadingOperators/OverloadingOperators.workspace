@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="OverloadingOperators" Database="" Version="10.0.0">
-  <Project Name="MyString" Path="MyString/MyString.project" Active="Yes"/>
+  <Project Name="MyString" Path="MyString/MyString.project" Active="No"/>
+  <Project Name="MystringMemberfunctions" Path="MystringMemberfunctions/MystringMemberfunctions.project" Active="No"/>
+  <Project Name="MystringInExsertion" Path="MystringInExsertion/MystringInExsertion.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="MyString" ConfigName="Debug"/>
+      <Project Name="MystringMemberfunctions" ConfigName="Debug"/>
+      <Project Name="MystringInExsertion" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="MyString" ConfigName="Release"/>
+      <Project Name="MystringMemberfunctions" ConfigName="Release"/>
+      <Project Name="MystringInExsertion" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
