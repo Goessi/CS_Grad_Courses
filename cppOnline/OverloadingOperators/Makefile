@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ MystringMemberfunctions - Debug ]----------"
-	@cd "MystringMemberfunctions" && "$(MAKE)" -f  "MystringMemberfunctions.mk"
+	@echo "----------Building project:[ MystringInExsertion - Debug ]----------"
+	@cd "MystringInExsertion" && "$(MAKE)" -f  "MystringInExsertion.mk"
 clean:
-	@echo "----------Cleaning project:[ MystringMemberfunctions - Debug ]----------"
-	@cd "MystringMemberfunctions" && "$(MAKE)" -f  "MystringMemberfunctions.mk" clean
+	@echo "----------Cleaning project:[ MystringInExsertion - Debug ]----------"
+	@cd "MystringInExsertion" && "$(MAKE)" -f  "MystringInExsertion.mk" clean
