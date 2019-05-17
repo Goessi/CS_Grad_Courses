@@ -14,5 +14,10 @@ public:
     std::string isbn() const;
     Salesdata &combine(const Salesdata &newitem);
     double avg_price() const;
+    
+    Salesdata() = default;
+    Salesdata(const std::string &s);
+    Salesdata(const std::string &s, int us, double r);
+    Salesdata(std::istream &);
 };
 #endif
