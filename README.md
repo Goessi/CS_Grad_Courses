@@ -1,2 +1,2 @@
 # CS_Grad_Courses
-Courses online assignments
+codes in books or exercises
