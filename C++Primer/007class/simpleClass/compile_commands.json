@@ -1,0 +1,9 @@
+[{
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData\\SalesData.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData\\SalesData.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\SalesData\\SalesData.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }]
