@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=JingQIN
-Date                   :=17/05/2019
+Date                   :=20/05/2019
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/mingw-64/mingw32/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw-64/mingw32/bin/g++.exe -shared -fPIC
@@ -62,7 +62,7 @@ AS       := C:/mingw-64/mingw32/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/Screen.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Windowmgr.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Screen.cpp$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Screen.cpp$(ObjectSuffix): Screen.cpp $(IntermediateDirectory)/Screen.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/JingQIN/Documents/GitHub/CS_Grad_Courses/C++Primer/007class/simpleClass/ScreenAndWindow/Screen.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Screen.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Screen.cpp$(DependSuffix): Screen.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Screen.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Screen.cpp$(DependSuffix) -MM Screen.cpp
+$(IntermediateDirectory)/Windowmgr.cpp$(ObjectSuffix): Windowmgr.cpp $(IntermediateDirectory)/Windowmgr.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/JingQIN/Documents/GitHub/CS_Grad_Courses/C++Primer/007class/simpleClass/ScreenAndWindow/Windowmgr.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Windowmgr.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Windowmgr.cpp$(DependSuffix): Windowmgr.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Windowmgr.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Windowmgr.cpp$(DependSuffix) -MM Windowmgr.cpp
 
-$(IntermediateDirectory)/Screen.cpp$(PreprocessSuffix): Screen.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Screen.cpp$(PreprocessSuffix) Screen.cpp
+$(IntermediateDirectory)/Windowmgr.cpp$(PreprocessSuffix): Windowmgr.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Windowmgr.cpp$(PreprocessSuffix) Windowmgr.cpp
 
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/JingQIN/Documents/GitHub/CS_Grad_Courses/C++Primer/007class/simpleClass/ScreenAndWindow/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
@@ -108,6 +108,14 @@ $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/Screen.cpp$(ObjectSuffix): Screen.cpp $(IntermediateDirectory)/Screen.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/JingQIN/Documents/GitHub/CS_Grad_Courses/C++Primer/007class/simpleClass/ScreenAndWindow/Screen.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Screen.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Screen.cpp$(DependSuffix): Screen.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Screen.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Screen.cpp$(DependSuffix) -MM Screen.cpp
+
+$(IntermediateDirectory)/Screen.cpp$(PreprocessSuffix): Screen.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Screen.cpp$(PreprocessSuffix) Screen.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

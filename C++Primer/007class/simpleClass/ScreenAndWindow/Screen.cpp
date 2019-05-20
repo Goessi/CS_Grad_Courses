@@ -1,6 +1,7 @@
 #include "Screen.h"
+#include <iostream>
 Screen::Screen(pos ht, pos wd)
-    :height{ht}, width{wd}, contents{ht*wd, " "} {
+    :height(ht), width(wd){
         
     }
     
@@ -36,5 +37,15 @@ Screen &Screen::set(char c) {
 
 Screen &Screen::set(pos r, pos col, char ch) {
     contents[r*width + col] = ch;
+    return *this;
+}
+
+Screen &Screen::display(std::ostream &os) {
+    std::cout << contents;
+    return *this;
+}
+
+const Screen &Screen::display(std::ostream &os) const {
+    std::cout << contents;
     return *this;
 }

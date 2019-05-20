@@ -3,6 +3,10 @@
   "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow",
   "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
  }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\Windowmgr.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\Windowmgr.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\Windowmgr.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
   "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\Screen.cpp",
   "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow",
   "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\Screen.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\Screen.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"

@@ -93,6 +93,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="Windowmgr.cpp"/>
+    <File Name="Windowmgr.h"/>
     <File Name="Screen.cpp"/>
     <File Name="Screen.h"/>
     <File Name="main.cpp"/>
