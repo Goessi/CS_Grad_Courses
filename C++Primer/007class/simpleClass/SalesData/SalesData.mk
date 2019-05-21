@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=JingQIN
-Date                   :=17/05/2019
+Date                   :=21/05/2019
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/mingw-64/mingw32/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw-64/mingw32/bin/g++.exe -shared -fPIC
@@ -62,7 +62,7 @@ AS       := C:/mingw-64/mingw32/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix) 
 
 
 
@@ -93,14 +93,6 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix): SalesData.cpp $(IntermediateDirectory)/SalesData.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/JingQIN/Documents/GitHub/CS_Grad_Courses/C++Primer/007class/simpleClass/SalesData/SalesData.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/SalesData.cpp$(DependSuffix): SalesData.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/SalesData.cpp$(DependSuffix) -MM SalesData.cpp
-
-$(IntermediateDirectory)/SalesData.cpp$(PreprocessSuffix): SalesData.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/SalesData.cpp$(PreprocessSuffix) SalesData.cpp
-
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/JingQIN/Documents/GitHub/CS_Grad_Courses/C++Primer/007class/simpleClass/SalesData/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
@@ -108,6 +100,14 @@ $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix): SalesData.cpp $(IntermediateDirectory)/SalesData.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/JingQIN/Documents/GitHub/CS_Grad_Courses/C++Primer/007class/simpleClass/SalesData/SalesData.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/SalesData.cpp$(DependSuffix): SalesData.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/SalesData.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/SalesData.cpp$(DependSuffix) -MM SalesData.cpp
+
+$(IntermediateDirectory)/SalesData.cpp$(PreprocessSuffix): SalesData.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/SalesData.cpp$(PreprocessSuffix) SalesData.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

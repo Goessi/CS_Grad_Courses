@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\C++Primer\007class\simpleClass\simpleClass.workspace">
-  <int Value="2" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\C++Primer\007class\simpleClass\simpleClass.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\C++Primer\007class\simpleClass\ScreenAndWindow\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\C++Primer\007class\simpleClass\Account\Account.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\C++Primer\007class\simpleClass\ScreenAndWindow\Screen.h" Name="FileName"/>
-      <int Value="7" Name="FirstVisibleLine"/>
-      <int Value="19" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\C++Primer\007class\simpleClass\ScreenAndWindow\Screen.cpp" Name="FileName"/>
-      <int Value="27" Name="FirstVisibleLine"/>
-      <int Value="39" Name="CurrentLine"/>
+      <wxString Value="C:\Users\JingQIN\Documents\GitHub\CS_Grad_Courses\C++Primer\007class\simpleClass\Account\Account.cpp" Name="FileName"/>
+      <int Value="10" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

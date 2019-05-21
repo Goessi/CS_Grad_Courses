@@ -2,19 +2,25 @@
 <CodeLite_Workspace Name="simpleClass" Database="" Version="10.0.0">
   <Project Name="SalesData" Path="SalesData/SalesData.project" Active="No"/>
   <Project Name="Person" Path="Person/Person.project" Active="No"/>
-  <Project Name="ScreenAndWindow" Path="ScreenAndWindow/ScreenAndWindow.project" Active="Yes"/>
+  <Project Name="ScreenAndWindow" Path="ScreenAndWindow/ScreenAndWindow.project" Active="No"/>
+  <Project Name="constructorClass" Path="constructorClass/constructorClass.project" Active="No"/>
+  <Project Name="Account" Path="Account/Account.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="SalesData" ConfigName="Debug"/>
       <Project Name="Person" ConfigName="Debug"/>
       <Project Name="ScreenAndWindow" ConfigName="Debug"/>
+      <Project Name="constructorClass" ConfigName="Debug"/>
+      <Project Name="Account" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="SalesData" ConfigName="Release"/>
       <Project Name="Person" ConfigName="Release"/>
       <Project Name="ScreenAndWindow" ConfigName="Release"/>
+      <Project Name="constructorClass" ConfigName="Release"/>
+      <Project Name="Account" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

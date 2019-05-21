@@ -41,17 +41,28 @@ double Salesdata::avg_price() const {
         return 0;
 }
 
+//Salesdata::Salesdata(const std::string &s)
+//    :BookNo{s} {
+//        std::cout << "one string parameter" << std::endl;        
+//}
+
+Salesdata::Salesdata()
+    :Salesdata(" ", 0, 0) {
+        std::cout << "Default constructor, no parameter" << std::endl;
+    }
+
 Salesdata::Salesdata(const std::string &s)
-    :BookNo{s} {
-        std::cout << "one string parameter" << std::endl;        
-}
+    : Salesdata(s, 0, 0) {
+        std::cout << "Default constructor, one string parameter" << std::endl;
+    }
 
 Salesdata::Salesdata(const std::string &s, int n, double r)
     :BookNo{s}, units_sold{n}, revenue{n*r} {
         std::cout << "one string , two number parameters" << std::endl;
 }
 
-Salesdata::Salesdata(std::istream &is) {
+Salesdata::Salesdata(std::istream &is) 
+    :Salesdata(){
     read(is, *this);
     std::cout << "instream parameter" << std::endl;
 }

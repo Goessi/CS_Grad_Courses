@@ -1,4 +1,20 @@
 [{
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account\\Account.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account\\Account.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\Account\\Account.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass\\Book.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass\\Book.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\constructorClass\\Book.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
   "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\main.cpp",
   "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow",
   "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\C++Primer\\007class\\simpleClass\\ScreenAndWindow\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"

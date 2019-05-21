@@ -15,7 +15,7 @@ public:
     Salesdata &combine(const Salesdata &newitem);
     double avg_price() const;
     
-    Salesdata() = default;
+    Salesdata();
     Salesdata(const std::string &s);
     Salesdata(const std::string &s, int us, double r);
     Salesdata(std::istream &);
