@@ -1,4 +1,20 @@
 [{
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction\\Mystring.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction\\Mystring.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringMemberFunction\\Mystring.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction\\main.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction\\Mystring.cpp",
+  "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction",
+  "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction\\Mystring.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MystringWithoutMemberFunction\\Mystring.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"
+ }, {
   "file": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MyString\\main.cpp",
   "directory": "C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MyString",
   "command": "clang  -c C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MyString\\main.cpp -o C:\\Users\\JingQIN\\Documents\\GitHub\\CS_Grad_Courses\\cppOnline\\OverloadingOperators\\MyString\\main.cpp.o -target x86_64-pc-windows-gnu -I. -I.  -g  -O0  -Wall"

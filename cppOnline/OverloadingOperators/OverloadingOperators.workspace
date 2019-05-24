@@ -2,19 +2,25 @@
 <CodeLite_Workspace Name="OverloadingOperators" Database="" Version="10.0.0">
   <Project Name="MyString" Path="MyString/MyString.project" Active="No"/>
   <Project Name="MystringMemberfunctions" Path="MystringMemberfunctions/MystringMemberfunctions.project" Active="No"/>
-  <Project Name="MystringInExsertion" Path="MystringInExsertion/MystringInExsertion.project" Active="Yes"/>
+  <Project Name="MystringInExsertion" Path="MystringInExsertion/MystringInExsertion.project" Active="No"/>
+  <Project Name="MystringMemberFunction" Path="MystringMemberFunction/MystringMemberFunction.project" Active="Yes"/>
+  <Project Name="MystringWithoutMemberFunction" Path="MystringWithoutMemberFunction/MystringWithoutMemberFunction.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="MyString" ConfigName="Debug"/>
       <Project Name="MystringMemberfunctions" ConfigName="Debug"/>
       <Project Name="MystringInExsertion" ConfigName="Debug"/>
+      <Project Name="MystringMemberFunction" ConfigName="Debug"/>
+      <Project Name="MystringWithoutMemberFunction" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="MyString" ConfigName="Release"/>
       <Project Name="MystringMemberfunctions" ConfigName="Release"/>
       <Project Name="MystringInExsertion" ConfigName="Release"/>
+      <Project Name="MystringMemberFunction" ConfigName="Release"/>
+      <Project Name="MystringWithoutMemberFunction" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
